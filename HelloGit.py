@@ -1,0 +1,45 @@
+#stride
+print(myList{0:6:2}) #from index 0 to 6, skip by 2
+
+#string are just lists
+
+phrase = 'catch the dog'
+phrase[2]
+phrase[4]
+phrase[-1:0:-3] #strides work backwards. -1 is right, 0 left, down 3
+#accessing elements of a list
+print(mylist[1])
+
+#writing functions
+def sumFunction(a,b):
+return a+b
+#calling functions
+print(sumFunction(2,20))
+ 
+#ifelse
+if(x==10):
+x=5
+elif(y==-10);
+y==5
+else:
+x=y-x
+
+#loop
+mylist=[1,3,8,412,43,2,20]
+
+#length of list
+len(mylist)
+
+# for loop by index
+for i in range(len(mylist)):
+print my(mylist[i])
+
+#for each loop
+for val in mylist:
+print(val)
+
+#dictionaries
+lookup={}
+lookup['kc']='chiefs'
+lookup['ne']='patriots'
+
