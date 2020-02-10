@@ -49,3 +49,23 @@ lookup={}
 lookup['kc']='chiefs'
 lookup['ne']='patriots'
 
+#three data types at input
+
+#string 
+phrase = input("Enter string:")
+print("Said" + phrase) #string concatenation
+print(f"You said{phrase}") #formatted string literall
+
+#float
+someFloat = float(input("enter float"))
+print("Entered float:" + str(someFloat))
+print(f"Entered float:" {someFloat}")
+
+#int
+someInt = float(input("enter an int"))
+print("ya entered " + str(someInt))
+print(f"ya entered {someInt}")
+
+#string interpolation is sweeeeet
+print(f"Do python inline, like so: {someFloat}*{someInt}= {someFloat * someInt}")
+
